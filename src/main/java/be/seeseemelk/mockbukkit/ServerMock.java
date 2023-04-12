@@ -214,8 +214,7 @@ public class ServerMock extends Server.Spigot implements Server
 	 * @return A set of entities that exist on this server instance.
 	 */
 	@NotNull
-	public Set<EntityMock> getEntities()
-	{
+	public Set<EntityMock> getEntities() {
 		return Collections.unmodifiableSet(entities);
 	}
 
